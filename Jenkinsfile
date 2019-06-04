@@ -2,7 +2,8 @@ stage 'CI'
 node('master') {
 
     checkout scm
-
+    
+    // comments
     // pull dependencies from npm
     // on windows use: bat 'npm install'
     sh 'npm install'
